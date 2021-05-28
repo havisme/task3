@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="516.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="99.0" prefWidth="616.0" text="Конвертер высоты" underline="true" />
+         </children>
+      </HBox>
+      <HBox prefHeight="315.0" prefWidth="600.0">
+         <children>
+            <VBox prefHeight="308.0" prefWidth="250.0">
+               <children>
+                  <TextField fx:id="text1" alignment="CENTER" prefHeight="103.0" prefWidth="221.0" promptText="Введите количество " />
+                  <TextField fx:id="text2" alignment="CENTER" prefHeight="101.0" prefWidth="221.0" promptText="Введите количество " />
+                  <TextField fx:id="text3" alignment="CENTER" prefHeight="103.0" prefWidth="221.0" promptText="Введите количество " />
+               </children></VBox>
+            <VBox prefHeight="308.0" prefWidth="103.0">
+               <children>
+                  <Button fx:id="btn1" mnemonicParsing="false" onAction="#Btn1" prefHeight="104.0" prefWidth="74.0" text="пеноблок" />
+                  <Button fx:id="btn2" mnemonicParsing="false" onAction="#Btn2" prefHeight="100.0" prefWidth="74.0" text="кирпич" />
+                  <Button fx:id="btn3" mnemonicParsing="false" onAction="#Btn3" prefHeight="102.0" prefWidth="74.0" text="шлакоблок" />
+               </children>
+            </VBox>
+            <VBox prefHeight="308.0" prefWidth="250.0">
+               <children>
+                  <TextField fx:id="text11" alignment="CENTER" editable="false" prefHeight="103.0" prefWidth="180.0" promptText="Высота в метрах" />
+                  <TextField fx:id="text22" alignment="CENTER" editable="false" prefHeight="101.0" prefWidth="221.0" promptText="Высота в метрах" />
+                  <TextField fx:id="text33" alignment="CENTER" editable="false" prefHeight="103.0" prefWidth="221.0" promptText="Высота в метрах" />
+               </children></VBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>
